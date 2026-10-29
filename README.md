@@ -1,5 +1,7 @@
 # Noita Lite
 
+> Public source preview: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known failures and runtime limits.
+
 Noita-подобная пиксельная симуляция на MonoGame с разделением на слой симуляции и слой рендеринга.
 
 ## Структура проекта
@@ -86,3 +88,7 @@ dotnet run
 - Фиксированный timestep: 60 Hz
 - Детерминированный RNG с seed
 - Физика игрока: гравитация, трение, коллизии с твёрдыми материалами
+
+## Public source status — 2026-10-29
+
+See [PUBLICATION.md](PUBLICATION.md) for the current verification scope, prototype limitations and runtime boundaries. Earlier audit checklists describe historical work.
